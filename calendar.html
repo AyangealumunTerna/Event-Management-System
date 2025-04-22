@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="container">
+        <section class="first-section">
+            <h1 id="title">Event Management System</h1>
+            <a href="index.html" class="logo" id="dashboard">
+                <img src="/images/iconmonstr-dashboard-alt-filled-32.png" alt="">
+                <p >Dashboard</p>
+            </a>
+            <a href="event.html" class="logo" id="event">
+                <img src="/images/iconmonstr-menu-square-lined-32.png" alt="">
+                <p>Events</p>
+            </a>
+            <a href="calendar.html" class="logo" id="calendar">
+                <img src="/images/iconmonstr-calendar-4-32.png" alt="" width="24" height="24" style="margin-left: .3rem;">
+                <p>Calendar</p>
+            </a>
+            <a href="rsvp.html" class="logo" id="rsvp">
+                <img src="/images/iconmonstr-check-mark-square-filled-32.png" alt="">
+                <p>RSVP List</p>
+            </a>
+        </section>
+        <section class="second-section">
+            <button id="create-btn">Create Event</button>
+            <img src="/images/iconmonstr-user-20-48.png" alt="" id="user-icon">
+           
+            <div class="calendar-container">
+                <div id="arrows">
+                    <div id="prev">
+                        <p><</p>
+                    </div>
+                    <div id="next">
+                        <p>></p>
+                    </div>
+                </div>
+                <div class="calendar">
+                    <div id="calendar-header">
+                   
+                        <h3 id="month"></h3>
+                        <p id="year"></p>
+                    </div> 
+                    <div class="calendar-grid">
+                        <div class="day">Sun</div>
+                        <div class="day">Mon</div>
+                        <div class="day">Teu</div>
+                        <div class="day">Wed</div>
+                        <div class="day">Thu</div>
+                        <div class="day">Fri</div>
+                        <div class="day">Sat</div>
+                    
+                    </div>
+                    <div id="day">
+                </div>
+                </div>
+            </div>
+        
+        
+
+    </section>
+
+    <script src="/script.js"></script>
+</body>
+</html>

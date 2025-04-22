@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #1295d1;
+    --primary-color2: #fff;
+    --secondary-color: #f1f1f1;
+    --text-color: #333;
+}
+
+.event-card{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+    margin: 1rem .5rem 1.5rem 0;
+    background-color: var(--primary-color2);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    color: var(--text-color);
+    width: 24rem;
+    height: 12rem;
+}
+.upcoming-list{
+    display: grid;
+    grid-template-columns: repeat( 2, 1fr);
+    gap: 2rem;
+    margin: 0 auto;
+}

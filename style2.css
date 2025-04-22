@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #1295d1;
+    --primary-color2: #fff;
+    --secondary-color: #f1f1f1;
+    --text-color: #333;
+}
+
+.calendar-container{
+    width: 40rem;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: var(--primary-color2);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+.calendar{
+    display: flex;
+    flex-direction: column;
+    width: 35rem;
+    padding: 0;
+    margin: 0 auto;
+    box-shadow: 0px solid var(--primary-color);
+}
+#prev, #next{
+    display: block;
+    font-size: 1.7rem;
+    font-weight: 900;
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#prev:hover{
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    
+}
+#next:hover{
+    background-color: var(--primary-color);
+    border-radius: 50%;
+
+    
+}
